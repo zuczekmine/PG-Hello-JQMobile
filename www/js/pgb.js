@@ -9,11 +9,11 @@ function onDeviceReady() {
 
 function deviceInfo() {
 
-	info =  'Device Name    : '     + device.name + '<br>' + 
+	info =  'Device Model   : '    + device.model + '<br>' + 
+			'Device Name    : '     + device.name + '<br>' + 
 			'Device Cordova : '  + device.cordova + '<br>' + 
 			'Device Platform: ' + device.platform + '<br>' + 
 			'Device UUID    : '     + device.uuid + '<br>' + 
-			'Device Model   : '    + device.model + '<br>' + 
 			'Device Version : '  + device.version + '<br>';
 
 	document.getElementById("deviceDetails").innerHTML = info;	
