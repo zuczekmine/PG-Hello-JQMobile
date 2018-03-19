@@ -33,13 +33,18 @@
 				<h1>Business Card</h1>
 			</div>
 			<div role="main" class="ui-content">
-				<p>Programowanie jest super i w ogóle.</p>
-				<p>Lubie placki</p>
+				<a href="#popupEternity" data-rel="popup" data-position-to="window" data-transition="fade">
+				<img class="popphoto" src="../img/eternity.jpg" alt="One eternity" style="width:30%"></a><br><br>
 				<a href="#pageone" class="ui-btn">Go to other page</a>
 			</div>
 			<div data-role="footer" data-position="fixed">
 			<h1>Anna Żukowska</h1>
 			</div> 
+		</div>
+		
+		<div data-role="popup" id="popupEternity" data-overlay-theme="b" data-theme="b" data-corners="false">
+    		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<img class="popphoto" src="../img/eternity.jpg" style="max-height:512px;" alt="One eternity">
 		</div>
 		
 		<div data-role="page" id="details" data-dialog="true">
